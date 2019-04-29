@@ -1,0 +1,44 @@
+body {
+    background: orange;
+}
+
+.wrapper {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+input, select {
+    border: none;
+    background: black;
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+    outline: black;
+}
+
+input:disabled {
+    display: block;
+    width: 91.5%;
+    font-size: 35px;
+}
+
+input:not(:disabled) {
+    border-bottom: 1px solid black;
+}
+
+button {
+    border: none;
+    color: yellow;
+    background: black;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-top: 25px;
+    box-shadow: 0 25px 25px -15px yellow);
+    cursor: pointer;
+}
